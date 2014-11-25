@@ -1,7 +1,7 @@
 (function($) {
 
 	$('#mc-subscribe-form').submit(function() {
-		
+
 	    var $this = $(this),
 	    	response = $('#response').hide();
 
