@@ -34,7 +34,7 @@ if ( ! class_exists( 'Simple_Newsletter_Widget' ) ) :
         public function __construct() {
             parent::__construct(
                 'simple_newsletter',
-                'Newsletter (Simple)',
+                'SimpleChimp',
                 array(
                     'description' => __( 'A custom widget that displays a newsletter subscribe field', 'simple' ),
                 )
