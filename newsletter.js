@@ -1,6 +1,11 @@
 (function($) {
 
-	$('#mc-subscribe-form').submit(function() {
+	$('#mc-subscribe-form').submit(function(e) {
+
+		e.preventDefault();
+
+		// if jquery validate plugin isnt loaded, exit
+		if ( !$().validate ) return;
 
 	    var $this = $(this),
 	    	response = $('#response').hide();
